@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="2.1" xmlns="http://java.sun.com/xml/ns/jaxb">
+  <!--
+
+Ce fichier a été généré par l'implémentation de référence JavaTM Architecture for XML Binding (JAXB), v2.3.2 
+Voir <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
+Généré le : 2025.05.19 à 01:54:14 PM WAT 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://example.com/currency">
+    <schemaBindings map="false">
+      <package name="com.example.currency"/>
+    </schemaBindings>
+    <bindings scd="tns:ConvertCurrencyRequest">
+      <class ref="com.example.currency.ConvertCurrencyRequest"/>
+    </bindings>
+    <bindings scd="tns:ConvertCurrencyResponse">
+      <class ref="com.example.currency.ConvertCurrencyResponse"/>
+    </bindings>
+  </bindings>
+</bindings>
+
